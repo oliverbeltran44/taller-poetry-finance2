@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "taller-poetry-finance2"
+version = "0.1.0"
+description = "Proyecto de finanzas con Poetry"
+authors = ["Oliver <oliverbeltran44@gmail.com>"]
+
+packages = [
+    { include = "taller_poetry_finance2", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.32.5"
